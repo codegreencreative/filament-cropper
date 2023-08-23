@@ -5,7 +5,7 @@ namespace Nuhel\FilamentCropper\Concerns;
 use Closure;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Storage;
-use Livewire\TemporaryUploadedFile;
+use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 
 trait CanGenerateThumbnail
 {
