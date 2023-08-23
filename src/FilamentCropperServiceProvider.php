@@ -2,10 +2,10 @@
 
 namespace Nuhel\FilamentCropper;
 
-use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class FilamentCropperServiceProvider extends PluginServiceProvider
+class FilamentCropperServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-cropper';
 
